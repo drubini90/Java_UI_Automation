@@ -1,7 +1,6 @@
 package common;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 public class Log {
 
@@ -12,7 +11,6 @@ public class Log {
 	{
 		_fileName = fileName;
 		logger = Logger.getLogger(_fileName);
-       //PropertyConfigurator.configure("log4j.properties");
 	}
 	
 	public void setFileName(String fileName){
