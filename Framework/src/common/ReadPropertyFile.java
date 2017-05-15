@@ -15,8 +15,7 @@ public class ReadPropertyFile {
 		try {
 			prop.load(stream);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		e.printStackTrace();
 		}
 	}
 
