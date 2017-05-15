@@ -5,7 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(glue = "stepDefinitions", 
 features = "src/test/resources/features", 
-tags = "@signUp",
+tags = "@homePage",
 plugin = { "html:target/cucumber-htmlreport", "json:target/cucumber-report.json" }, 
 monochrome = true)
 public class TestRunner extends AbstractTestNGCucumberTests{
